@@ -7,8 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "prepare": "husky install"
-  },
+    "prepare": "husky install",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+},
   "private": true,
   "dependencies": {
     "@angular/animations": "^17.1.0",
@@ -40,6 +41,6 @@
     "typescript": "~5.3.2"
   },
   "lint-staged": {
-    "*.{ts,js,css,md}": "prettier --write --ignore-unknown"
+    "src/**/*.ts": "prettier --config .prettierrc --write --ignore-unknown"
   }
 }
