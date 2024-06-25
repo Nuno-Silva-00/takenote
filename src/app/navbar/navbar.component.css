@@ -1,0 +1,43 @@
+.navbar {
+	height: 100%;
+	width: 17%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #112d4e;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+button {
+    /* when active font-weight: 700 */
+    /* when active opacity: 1 */
+	border: none;
+	width: 100%;
+	color: white;
+	padding: 0.7em 0em 0.7em 2em;
+	background-color: #112d4e;
+	text-align: start;
+}
+
+.navbar-button-main {
+	margin: 0.5em 0em 0.7em 0em;
+	font-weight: 700;
+}
+
+.navbar-button-list {
+	opacity: 70%;
+}
+
+.navbar button:hover {
+	opacity: 1;
+	background-color: #3f72af;
+	cursor: pointer;
+}
