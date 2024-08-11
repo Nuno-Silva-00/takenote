@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+app-navbar {
+    width: 14%;
+}
+
+app-note-bar {
+    width: 18%;
+}
+* {
+    border: 1px solid red;
+}

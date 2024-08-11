@@ -1,16 +1,10 @@
 .navbar {
     height: 100%;
-    width: 14%;
-    position: fixed;
     top: 0;
     left: 0;
     background-color: #112d4e;
     overflow-x: hidden;
     overflow-y: hidden;
-}
-
-.container {
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
